@@ -2,6 +2,8 @@
 .blog,
 .projects
     margin-top: 125px
+    max-width: 635px
+    margin: auto
 
     > .list
         border-top: 1px solid $epsilon
@@ -22,6 +24,7 @@
             background: #FFF
             box-shadow: #FFF 0 0 0 5px
             border-radius: 3px
+
 
 .home > .list,
 .blog > .list,
@@ -62,12 +65,3 @@
     .item:hover .url aside
         color: $alpha
 
-.projects > .list > .item > .url
-    > .title
-        display: inline
-
-    > .emoji
-        display: inline
-        position: relative
-        top: -4px
-        margin-right: 10px
